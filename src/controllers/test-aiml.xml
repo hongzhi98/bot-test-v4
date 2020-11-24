@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>* HELP *</pattern>
+        <template>Here you go!</template>
+    </category>
+
+    <category>
+        <pattern>HELLO</pattern>
+        <template>Hello!</template>
+    </category>
+
+    <category>
+        <pattern>^ login ^ cardzone ^</pattern>
+        <template><srai> login to Cardzone CMS</srai></template>
+    </category>
+
+    <category>
+        <pattern>LOGIN TO CARDZONE CMS *</pattern>
+        <template>
+            Steps:
+            1. Enter the Cardzone CMS FrontEnd System URL and press the [Enter] key.
+            2. At the Login Page, enter your User Name and Password.
+            3. Then, click on the button to log in.
+        </template>
+    </category>
+</aiml>
